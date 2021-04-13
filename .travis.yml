@@ -13,4 +13,4 @@ script:
   - cd build
   - cmake ../ -DGMX_BUILD_OWN_FFTW=ON
   - make
-  - make install
+  - sudo make install
