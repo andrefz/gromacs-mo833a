@@ -5,6 +5,8 @@ language: cpp
 compiler: 
   - clang
 
+sudo: required
+
 before_script:
   - apt-get -qq update
 
