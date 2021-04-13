@@ -1,1 +1,16 @@
 dist: focal
+
+language: cpp
+
+compiler: 
+  - clang
+
+before_script:
+  -apt-get update
+
+script:
+  - mkdir -p build
+  - cd build
+  - cmake ../ -DGMX_BUILD_OWN_FFTW=ON
+  - make
+  - make install
