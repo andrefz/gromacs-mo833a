@@ -1,0 +1,2028 @@
+The system is: Linux - 5.11.15-arch1-2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/root/gromacs-mo833a/build_release/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/root/gromacs-mo833a/build_release/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dac5d/fast && /usr/bin/make -f CMakeFiles/cmTC_dac5d.dir/build.make CMakeFiles/cmTC_dac5d.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dac5d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_dac5d.dir/testCCompiler.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_dac5d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dac5d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_dac5d.dir/testCCompiler.c.o  -o cmTC_dac5d 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8278/fast && /usr/bin/make -f CMakeFiles/cmTC_e8278.dir/build.make CMakeFiles/cmTC_e8278.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9HkPan.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o /tmp/cc9HkPan.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_e8278
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8278.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o  -o cmTC_e8278 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8278' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI80sUP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e8278 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8278' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e8278/fast && /usr/bin/make -f CMakeFiles/cmTC_e8278.dir/build.make CMakeFiles/cmTC_e8278.dir/build]
+  ignore line: [make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc9HkPan.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o /tmp/cc9HkPan.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_e8278]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8278.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o  -o cmTC_e8278 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e8278' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI80sUP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e8278 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccI80sUP.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e8278] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_e8278.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ca7a/fast && /usr/bin/make -f CMakeFiles/cmTC_8ca7a.dir/build.make CMakeFiles/cmTC_8ca7a.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ca7a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_8ca7a.dir/testCXXCompiler.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8ca7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca7a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_8ca7a.dir/testCXXCompiler.cxx.o  -o cmTC_8ca7a 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb4bf/fast && /usr/bin/make -f CMakeFiles/cmTC_cb4bf.dir/build.make CMakeFiles/cmTC_cb4bf.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDbhFDl.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDbhFDl.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_cb4bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb4bf.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cb4bf 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb4bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1dPbPK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cb4bf /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb4bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cb4bf/fast && /usr/bin/make -f CMakeFiles/cmTC_cb4bf.dir/build.make CMakeFiles/cmTC_cb4bf.dir/build]
+  ignore line: [make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDbhFDl.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDbhFDl.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_cb4bf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb4bf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cb4bf ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb4bf' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1dPbPK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cb4bf /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc1dPbPK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cb4bf] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_cb4bf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7544f/fast && /usr/bin/make -f CMakeFiles/cmTC_7544f.dir/build.make CMakeFiles/cmTC_7544f.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o
+/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccp6g24X.s
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o /tmp/ccp6g24X.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking C executable cmTC_7544f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7544f.dir/link.txt --verbose=1
+/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o  -o cmTC_7544f  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7544f' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaX8Hcp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7544f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7544f' '-v' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_7544f/fast && /usr/bin/make -f CMakeFiles/cmTC_7544f.dir/build.make CMakeFiles/cmTC_7544f.dir/build]
+  ignore line: [make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o]
+  ignore line: [/usr/bin/cc   -fopenmp -v   -o CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.c -quiet -dumpbase OpenMPTryFlag.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccp6g24X.s]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bbf13931d8de1abe14040c9909cb6969]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o /tmp/ccp6g24X.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking C executable cmTC_7544f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7544f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -fopenmp -v    CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o  -o cmTC_7544f  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_7544f' '-v' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaX8Hcp.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_7544f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaX8Hcp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7544f] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_7544f.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX OpenMP compiler ABI info compiled with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_217a4/fast && /usr/bin/make -f CMakeFiles/cmTC_217a4.dir/build.make CMakeFiles/cmTC_217a4.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o
+/usr/bin/c++    -fopenmp -v   -std=c++14 -o CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o -c /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cca2aDGX.s
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ as -v --64 -o CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o /tmp/cca2aDGX.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+Linking CXX executable cmTC_217a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_217a4.dir/link.txt --verbose=1
+/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o  -o cmTC_217a4  -v 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_217a4' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccogKBSo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_217a4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o
+COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_217a4' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread'
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_217a4/fast && /usr/bin/make -f CMakeFiles/cmTC_217a4.dir/build.make CMakeFiles/cmTC_217a4.dir/build]
+  ignore line: [make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o]
+  ignore line: [/usr/bin/c++    -fopenmp -v   -std=c++14 -o CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o -c /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /root/gromacs-mo833a/build_release/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o -std=c++14 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cca2aDGX.s]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.3.0-17ubuntu1~20.04) version 9.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 466f818abe2f30ba03783f22bd12d815]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o /tmp/cca2aDGX.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=c++14' '-o' 'CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  ignore line: [Linking CXX executable cmTC_217a4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_217a4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -fopenmp -v    CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o  -o cmTC_217a4  -v ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.3.0-17ubuntu1~20.04' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-HskZEa/gcc-9-9.3.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_217a4' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccogKBSo.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_217a4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccogKBSo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_217a4] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_217a4.dir/OpenMPTryFlag.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtoffloadend.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CFLAGS_WARN succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14cfa/fast && /usr/bin/make -f CMakeFiles/cmTC_14cfa.dir/build.make CMakeFiles/cmTC_14cfa.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_14cfa.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN   -Wall -Wno-unused -Wunused-value -Wunused-parameter -o CMakeFiles/cmTC_14cfa.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_14cfa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14cfa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_WARN    CMakeFiles/cmTC_14cfa.dir/src.c.o  -o cmTC_14cfa 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_EXTRA succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca35b/fast && /usr/bin/make -f CMakeFiles/cmTC_ca35b.dir/build.make CMakeFiles/cmTC_ca35b.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca35b.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_EXTRA   -Wextra -Wno-missing-field-initializers -Wno-sign-compare -Wpointer-arith -o CMakeFiles/cmTC_ca35b.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ca35b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca35b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_WARN_EXTRA    CMakeFiles/cmTC_ca35b.dir/src.c.o  -o cmTC_ca35b 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_UNDEF succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6792/fast && /usr/bin/make -f CMakeFiles/cmTC_d6792.dir/build.make CMakeFiles/cmTC_d6792.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6792.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_UNDEF   -Wundef -o CMakeFiles/cmTC_d6792.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6792.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_WARN_UNDEF    CMakeFiles/cmTC_d6792.dir/src.c.o  -o cmTC_d6792 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_WARN_REL succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a347/fast && /usr/bin/make -f CMakeFiles/cmTC_7a347.dir/build.make CMakeFiles/cmTC_7a347.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a347.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN_REL   -Wno-array-bounds -o CMakeFiles/cmTC_7a347.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7a347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a347.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_WARN_REL    CMakeFiles/cmTC_7a347.dir/src.c.o  -o cmTC_7a347 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_STRINGOP_TRUNCATION succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0cf2/fast && /usr/bin/make -f CMakeFiles/cmTC_b0cf2.dir/build.make CMakeFiles/cmTC_b0cf2.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0cf2.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_STRINGOP_TRUNCATION   -Werror=stringop-truncation -o CMakeFiles/cmTC_b0cf2.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b0cf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0cf2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_STRINGOP_TRUNCATION    CMakeFiles/cmTC_b0cf2.dir/src.c.o  -o cmTC_b0cf2 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56aa9/fast && /usr/bin/make -f CMakeFiles/cmTC_56aa9.dir/build.make CMakeFiles/cmTC_56aa9.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56aa9.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_EXCESS_PREC   -fexcess-precision=fast -o CMakeFiles/cmTC_56aa9.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_56aa9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56aa9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_EXCESS_PREC    CMakeFiles/cmTC_56aa9.dir/src.c.o  -o cmTC_56aa9 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c62cf/fast && /usr/bin/make -f CMakeFiles/cmTC_c62cf.dir/build.make CMakeFiles/cmTC_c62cf.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c62cf.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_COPT   -funroll-all-loops -o CMakeFiles/cmTC_c62cf.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c62cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c62cf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_COPT    CMakeFiles/cmTC_c62cf.dir/src.c.o  -o cmTC_c62cf 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_725f0/fast && /usr/bin/make -f CMakeFiles/cmTC_725f0.dir/build.make CMakeFiles/cmTC_725f0.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_725f0.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_NOINLINE   -fno-inline -o CMakeFiles/cmTC_725f0.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_725f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_725f0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCFLAGS_NOINLINE    CMakeFiles/cmTC_725f0.dir/src.c.o  -o cmTC_725f0 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e6414/fast && /usr/bin/make -f CMakeFiles/cmTC_e6414.dir/build.make CMakeFiles/cmTC_e6414.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6414.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN   -Wall -std=c++14 -o CMakeFiles/cmTC_e6414.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e6414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6414.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_WARN    CMakeFiles/cmTC_e6414.dir/src.cxx.o  -o cmTC_e6414 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_EXTRA succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d5580/fast && /usr/bin/make -f CMakeFiles/cmTC_d5580.dir/build.make CMakeFiles/cmTC_d5580.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5580.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN_EXTRA   -Wextra -Wno-missing-field-initializers -Wpointer-arith -Wmissing-declarations -std=c++14 -o CMakeFiles/cmTC_d5580.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d5580
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5580.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_WARN_EXTRA    CMakeFiles/cmTC_d5580.dir/src.cxx.o  -o cmTC_d5580 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN_UNDEF succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0980a/fast && /usr/bin/make -f CMakeFiles/cmTC_0980a.dir/build.make CMakeFiles/cmTC_0980a.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0980a.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN_UNDEF   -Wundef -std=c++14 -o CMakeFiles/cmTC_0980a.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0980a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0980a.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_WARN_UNDEF    CMakeFiles/cmTC_0980a.dir/src.cxx.o  -o cmTC_0980a 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CXXFLAGS_WARN_REL succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dd7a1/fast && /usr/bin/make -f CMakeFiles/cmTC_dd7a1.dir/build.make CMakeFiles/cmTC_dd7a1.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd7a1.dir/src.c.o
+/usr/bin/cc   -DCXXFLAGS_WARN_REL   -Wno-array-bounds -o CMakeFiles/cmTC_dd7a1.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dd7a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd7a1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCXXFLAGS_WARN_REL    CMakeFiles/cmTC_dd7a1.dir/src.c.o  -o cmTC_dd7a1 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_STRINGOP_TRUNCATION succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a49d6/fast && /usr/bin/make -f CMakeFiles/cmTC_a49d6.dir/build.make CMakeFiles/cmTC_a49d6.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a49d6.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_STRINGOP_TRUNCATION   -Wstringop-truncation -std=c++14 -o CMakeFiles/cmTC_a49d6.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a49d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a49d6.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_STRINGOP_TRUNCATION    CMakeFiles/cmTC_a49d6.dir/src.cxx.o  -o cmTC_a49d6 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e89d/fast && /usr/bin/make -f CMakeFiles/cmTC_7e89d.dir/build.make CMakeFiles/cmTC_7e89d.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e89d.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_EXCESS_PREC   -fexcess-precision=fast -std=c++14 -o CMakeFiles/cmTC_7e89d.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7e89d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e89d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_EXCESS_PREC    CMakeFiles/cmTC_7e89d.dir/src.cxx.o  -o cmTC_7e89d 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_596c4/fast && /usr/bin/make -f CMakeFiles/cmTC_596c4.dir/build.make CMakeFiles/cmTC_596c4.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_596c4.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_COPT   -funroll-all-loops -std=c++14 -o CMakeFiles/cmTC_596c4.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_596c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596c4.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_COPT    CMakeFiles/cmTC_596c4.dir/src.cxx.o  -o cmTC_596c4 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2b799/fast && /usr/bin/make -f CMakeFiles/cmTC_2b799.dir/build.make CMakeFiles/cmTC_2b799.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b799.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_NOINLINE   -fno-inline -std=c++14 -o CMakeFiles/cmTC_2b799.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2b799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b799.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXXFLAGS_NOINLINE    CMakeFiles/cmTC_2b799.dir/src.cxx.o  -o cmTC_2b799 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a1b51/fast && /usr/bin/make -f CMakeFiles/cmTC_a1b51.dir/build.make CMakeFiles/cmTC_a1b51.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1b51.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a1b51.dir/HAVE_UNISTD_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_a1b51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1b51.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a1b51.dir/HAVE_UNISTD_H.c.o  -o cmTC_a1b51 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43c0d/fast && /usr/bin/make -f CMakeFiles/cmTC_43c0d.dir/build.make CMakeFiles/cmTC_43c0d.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43c0d.dir/HAVE_PWD_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_43c0d.dir/HAVE_PWD_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_PWD_H.c
+Linking C executable cmTC_43c0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43c0d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_43c0d.dir/HAVE_PWD_H.c.o  -o cmTC_43c0d 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73b7e/fast && /usr/bin/make -f CMakeFiles/cmTC_73b7e.dir/build.make CMakeFiles/cmTC_73b7e.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73b7e.dir/HAVE_DIRENT_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_73b7e.dir/HAVE_DIRENT_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_DIRENT_H.c
+Linking C executable cmTC_73b7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73b7e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_73b7e.dir/HAVE_DIRENT_H.c.o  -o cmTC_73b7e 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7cd5/fast && /usr/bin/make -f CMakeFiles/cmTC_d7cd5.dir/build.make CMakeFiles/cmTC_d7cd5.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7cd5.dir/HAVE_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d7cd5.dir/HAVE_TIME_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_d7cd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7cd5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d7cd5.dir/HAVE_TIME_H.c.o  -o cmTC_d7cd5 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b8ee/fast && /usr/bin/make -f CMakeFiles/cmTC_3b8ee.dir/build.make CMakeFiles/cmTC_3b8ee.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b8ee.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3b8ee.dir/HAVE_SYS_TIME_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_3b8ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b8ee.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3b8ee.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_3b8ee 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f41a7/fast && /usr/bin/make -f CMakeFiles/cmTC_f41a7.dir/build.make CMakeFiles/cmTC_f41a7.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f41a7.dir/HAVE_SCHED_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f41a7.dir/HAVE_SCHED_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_SCHED_H.c
+Linking C executable cmTC_f41a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f41a7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f41a7.dir/HAVE_SCHED_H.c.o  -o cmTC_f41a7 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files xmmintrin.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f60c1/fast && /usr/bin/make -f CMakeFiles/cmTC_f60c1.dir/build.make CMakeFiles/cmTC_f60c1.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f60c1.dir/HAVE_XMMINTRIN_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f60c1.dir/HAVE_XMMINTRIN_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_XMMINTRIN_H.c
+Linking C executable cmTC_f60c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f60c1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f60c1.dir/HAVE_XMMINTRIN_H.c.o  -o cmTC_f60c1 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46227/fast && /usr/bin/make -f CMakeFiles/cmTC_46227.dir/build.make CMakeFiles/cmTC_46227.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46227.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_46227.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_46227
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46227.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_46227.dir/CheckSymbolExists.cxx.o  -o cmTC_46227 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c785e/fast && /usr/bin/make -f CMakeFiles/cmTC_c785e.dir/build.make CMakeFiles/cmTC_c785e.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c785e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_c785e.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_c785e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c785e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c785e.dir/CheckSymbolExists.cxx.o  -o cmTC_c785e 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nice exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2bd38/fast && /usr/bin/make -f CMakeFiles/cmTC_2bd38.dir/build.make CMakeFiles/cmTC_2bd38.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2bd38.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_2bd38.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_2bd38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bd38.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2bd38.dir/CheckSymbolExists.cxx.o  -o cmTC_2bd38 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nice
+  return ((int*)(&nice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fsync exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7188b/fast && /usr/bin/make -f CMakeFiles/cmTC_7188b.dir/build.make CMakeFiles/cmTC_7188b.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7188b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_7188b.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_7188b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7188b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7188b.dir/CheckSymbolExists.cxx.o  -o cmTC_7188b 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fsync
+  return ((int*)(&fsync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fileno exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_39309/fast && /usr/bin/make -f CMakeFiles/cmTC_39309.dir/build.make CMakeFiles/cmTC_39309.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39309.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_39309.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_39309
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39309.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_39309.dir/CheckSymbolExists.cxx.o  -o cmTC_39309 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fileno
+  return ((int*)(&fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_654b8/fast && /usr/bin/make -f CMakeFiles/cmTC_654b8.dir/build.make CMakeFiles/cmTC_654b8.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_654b8.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_654b8.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_654b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654b8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_654b8.dir/CheckSymbolExists.cxx.o  -o cmTC_654b8 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_BUILTIN_CLZ succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cf127/fast && /usr/bin/make -f CMakeFiles/cmTC_cf127.dir/build.make CMakeFiles/cmTC_cf127.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf127.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_BUILTIN_CLZ   -std=c++14 -o CMakeFiles/cmTC_cf127.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cf127
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf127.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_BUILTIN_CLZ    CMakeFiles/cmTC_cf127.dir/src.cxx.o  -o cmTC_cf127 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(){ return __builtin_clz(1);}
+Performing C++ SOURCE FILE Test HAVE_BUILTIN_CLZLL succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b8734/fast && /usr/bin/make -f CMakeFiles/cmTC_b8734.dir/build.make CMakeFiles/cmTC_b8734.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8734.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_BUILTIN_CLZLL   -std=c++14 -o CMakeFiles/cmTC_b8734.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8734
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8734.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_BUILTIN_CLZLL    CMakeFiles/cmTC_b8734.dir/src.cxx.o  -o cmTC_b8734 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(){ return __builtin_clzll(1);}
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c12a3/fast && /usr/bin/make -f CMakeFiles/cmTC_c12a3.dir/build.make CMakeFiles/cmTC_c12a3.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c12a3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_c12a3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c12a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c12a3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_c12a3.dir/CheckFunctionExists.c.o  -o cmTC_c12a3  -lrt 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function feenableexcept exists in the m passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8cf6/fast && /usr/bin/make -f CMakeFiles/cmTC_d8cf6.dir/build.make CMakeFiles/cmTC_d8cf6.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8cf6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=feenableexcept   -o CMakeFiles/cmTC_d8cf6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8cf6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8cf6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=feenableexcept    CMakeFiles/cmTC_d8cf6.dir/CheckFunctionExists.c.o  -o cmTC_d8cf6  -lm 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fedisableexcept exists in the m passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_935f2/fast && /usr/bin/make -f CMakeFiles/cmTC_935f2.dir/build.make CMakeFiles/cmTC_935f2.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_935f2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fedisableexcept   -o CMakeFiles/cmTC_935f2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_935f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_935f2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fedisableexcept    CMakeFiles/cmTC_935f2.dir/CheckFunctionExists.c.o  -o cmTC_935f2  -lm 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test sched_affinity_compile succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0ea57/fast && /usr/bin/make -f CMakeFiles/cmTC_0ea57.dir/build.make CMakeFiles/cmTC_0ea57.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ea57.dir/src.c.o
+/usr/bin/cc   -Dsched_affinity_compile   -o CMakeFiles/cmTC_0ea57.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0ea57
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ea57.dir/link.txt --verbose=1
+/usr/bin/cc  -Dsched_affinity_compile    CMakeFiles/cmTC_0ea57.dir/src.c.o  -o cmTC_0ea57 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if files mm_malloc.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a91b0/fast && /usr/bin/make -f CMakeFiles/cmTC_a91b0.dir/build.make CMakeFiles/cmTC_a91b0.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a91b0.dir/HAVE_MM_MALLOC_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a91b0.dir/HAVE_MM_MALLOC_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_MM_MALLOC_H.c
+Linking C executable cmTC_a91b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a91b0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a91b0.dir/HAVE_MM_MALLOC_H.c.o  -o cmTC_a91b0 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13d38/fast && /usr/bin/make -f CMakeFiles/cmTC_13d38.dir/build.make CMakeFiles/cmTC_13d38.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13d38.dir/HAVE_MALLOC_H.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_13d38.dir/HAVE_MALLOC_H.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+Linking C executable cmTC_13d38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d38.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_13d38.dir/HAVE_MALLOC_H.c.o  -o cmTC_13d38 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ad93a/fast && /usr/bin/make -f CMakeFiles/cmTC_ad93a.dir/build.make CMakeFiles/cmTC_ad93a.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad93a.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_ad93a.dir/CheckSymbolExists.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ad93a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad93a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ad93a.dir/CheckSymbolExists.cxx.o  -o cmTC_ad93a 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+File /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f2d6/fast && /usr/bin/make -f CMakeFiles/cmTC_9f2d6.dir/build.make CMakeFiles/cmTC_9f2d6.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f2d6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9f2d6.dir/CheckIncludeFile.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9f2d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f2d6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9f2d6.dir/CheckIncludeFile.c.o  -o cmTC_9f2d6 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1cdfe/fast && /usr/bin/make -f CMakeFiles/cmTC_1cdfe.dir/build.make CMakeFiles/cmTC_1cdfe.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cdfe.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1cdfe.dir/CheckIncludeFile.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1cdfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cdfe.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1cdfe.dir/CheckIncludeFile.c.o  -o cmTC_1cdfe 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3fcb1/fast && /usr/bin/make -f CMakeFiles/cmTC_3fcb1.dir/build.make CMakeFiles/cmTC_3fcb1.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fcb1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3fcb1.dir/CheckIncludeFile.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3fcb1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fcb1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3fcb1.dir/CheckIncludeFile.c.o  -o cmTC_3fcb1 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_10d97/fast && /usr/bin/make -f CMakeFiles/cmTC_10d97.dir/build.make CMakeFiles/cmTC_10d97.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10d97.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_10d97.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_10d97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10d97.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_10d97.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_10d97 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96df0/fast && /usr/bin/make -f CMakeFiles/cmTC_96df0.dir/build.make CMakeFiles/cmTC_96df0.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96df0.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96df0.dir/TestEndianess.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_96df0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96df0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_96df0.dir/TestEndianess.c.o  -o cmTC_96df0 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ceda/fast && /usr/bin/make -f CMakeFiles/cmTC_9ceda.dir/build.make CMakeFiles/cmTC_9ceda.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ceda.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ceda.dir/CheckIncludeFile.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9ceda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ceda.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9ceda.dir/CheckIncludeFile.c.o  -o cmTC_9ceda 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_23203/fast && /usr/bin/make -f CMakeFiles/cmTC_23203.dir/build.make CMakeFiles/cmTC_23203.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_23203.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23203.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_23203
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23203.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_23203.dir/CheckFunctionExists.c.o  -o cmTC_23203  -lpthread 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_03bb0/fast && /usr/bin/make -f CMakeFiles/cmTC_03bb0.dir/build.make CMakeFiles/cmTC_03bb0.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_03bb0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_03bb0.dir/CheckIncludeFile.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_03bb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03bb0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_03bb0.dir/CheckIncludeFile.cxx.o  -o cmTC_03bb0 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test PTHREAD_SETAFFINITY succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8787a/fast && /usr/bin/make -f CMakeFiles/cmTC_8787a.dir/build.make CMakeFiles/cmTC_8787a.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8787a.dir/src.cxx.o
+/usr/bin/c++    -DPTHREAD_SETAFFINITY   -std=c++14 -o CMakeFiles/cmTC_8787a.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx:1: warning: "_GNU_SOURCE" redefined
+    1 | #define _GNU_SOURCE
+      | 
+<command-line>: note: this is the location of the previous definition
+Linking CXX executable cmTC_8787a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8787a.dir/link.txt --verbose=1
+/usr/bin/c++   -DPTHREAD_SETAFFINITY    CMakeFiles/cmTC_8787a.dir/src.cxx.o  -o cmTC_8787a  -lpthread 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test C_mavx2_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be144/fast && /usr/bin/make -f CMakeFiles/cmTC_be144.dir/build.make CMakeFiles/cmTC_be144.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be144.dir/src.c.o
+/usr/bin/cc   -DC_mavx2_mfma_FLAG_ACCEPTED    -mavx2 -mfma -o CMakeFiles/cmTC_be144.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_be144
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be144.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx2_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_be144.dir/src.c.o  -o cmTC_be144 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_mavx2_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bb45/fast && /usr/bin/make -f CMakeFiles/cmTC_4bb45.dir/build.make CMakeFiles/cmTC_4bb45.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bb45.dir/src.c.o
+/usr/bin/cc   -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma   -o CMakeFiles/cmTC_4bb45.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4bb45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bb45.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma    CMakeFiles/cmTC_4bb45.dir/src.c.o  -o cmTC_4bb45 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C++ SOURCE FILE Test CXX_mavx2_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97bb2/fast && /usr/bin/make -f CMakeFiles/cmTC_97bb2.dir/build.make CMakeFiles/cmTC_97bb2.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_97bb2.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx2_mfma_FLAG_ACCEPTED    -mavx2 -mfma -std=c++14 -o CMakeFiles/cmTC_97bb2.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_97bb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97bb2.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx2_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_97bb2.dir/src.cxx.o  -o cmTC_97bb2 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_mavx2_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2dce4/fast && /usr/bin/make -f CMakeFiles/cmTC_2dce4.dir/build.make CMakeFiles/cmTC_2dce4.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2dce4.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma   -std=c++14 -o CMakeFiles/cmTC_2dce4.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2dce4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dce4.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma    CMakeFiles/cmTC_2dce4.dir/src.cxx.o  -o cmTC_2dce4 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
+Performing C SOURCE FILE Test C_mavx512f_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_576f6/fast && /usr/bin/make -f CMakeFiles/cmTC_576f6.dir/build.make CMakeFiles/cmTC_576f6.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_576f6.dir/src.c.o
+/usr/bin/cc   -DC_mavx512f_mfma_FLAG_ACCEPTED    -mavx512f -mfma -o CMakeFiles/cmTC_576f6.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_576f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_576f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx512f_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_576f6.dir/src.c.o  -o cmTC_576f6 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_mavx512f_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_269a7/fast && /usr/bin/make -f CMakeFiles/cmTC_269a7.dir/build.make CMakeFiles/cmTC_269a7.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_269a7.dir/src.c.o
+/usr/bin/cc   -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma   -o CMakeFiles/cmTC_269a7.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_269a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_269a7.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma    CMakeFiles/cmTC_269a7.dir/src.c.o  -o cmTC_269a7 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+         int main(){__m512 x=_mm512_set1_ps(0.5); __m512 y=_mm512_fmadd_ps(x,x,x);
+          __m512i i = _mm512_set_epi32(15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0);
+          __mmask16 mask = (short)(0xffff);
+          int idata[16]; i  = _mm512_maskz_permutexvar_epi32(mask, i, i);
+          _mm512_storeu_si512(idata, i);
+          return idata[0]*(int)(_mm512_cmp_ps_mask(x,y,_CMP_LT_OS));}
+Performing C++ SOURCE FILE Test CXX_mavx512f_mfma_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f39c0/fast && /usr/bin/make -f CMakeFiles/cmTC_f39c0.dir/build.make CMakeFiles/cmTC_f39c0.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f39c0.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx512f_mfma_FLAG_ACCEPTED    -mavx512f -mfma -std=c++14 -o CMakeFiles/cmTC_f39c0.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f39c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f39c0.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx512f_mfma_FLAG_ACCEPTED    CMakeFiles/cmTC_f39c0.dir/src.cxx.o  -o cmTC_f39c0 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_mavx512f_mfma_COMPILE_WORKS succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80460/fast && /usr/bin/make -f CMakeFiles/cmTC_80460.dir/build.make CMakeFiles/cmTC_80460.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_80460.dir/src.cxx.o
+/usr/bin/c++    -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma   -std=c++14 -o CMakeFiles/cmTC_80460.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_80460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80460.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma    CMakeFiles/cmTC_80460.dir/src.cxx.o  -o cmTC_80460 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include<immintrin.h>
+         int main(){__m512 x=_mm512_set1_ps(0.5); __m512 y=_mm512_fmadd_ps(x,x,x);
+          __m512i i = _mm512_set_epi32(15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0);
+          __mmask16 mask = (short)(0xffff);
+          int idata[16]; i  = _mm512_maskz_permutexvar_epi32(mask, i, i);
+          _mm512_storeu_si512(idata, i);
+          return idata[0]*(int)(_mm512_cmp_ps_mask(x,y,_CMP_LT_OS));}
+Performing C++ SOURCE FILE Test _Wno_unused_command_line_argument_FLAG_ACCEPTED succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f86a/fast && /usr/bin/make -f CMakeFiles/cmTC_3f86a.dir/build.make CMakeFiles/cmTC_3f86a.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f86a.dir/src.cxx.o
+/usr/bin/c++    -D_Wno_unused_command_line_argument_FLAG_ACCEPTED   -Wno-unused-command-line-argument -std=c++14 -o CMakeFiles/cmTC_3f86a.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3f86a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f86a.dir/link.txt --verbose=1
+/usr/bin/c++   -D_Wno_unused_command_line_argument_FLAG_ACCEPTED    CMakeFiles/cmTC_3f86a.dir/src.cxx.o  -o cmTC_3f86a 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test _callconv_  succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ee0f/fast && /usr/bin/make -f CMakeFiles/cmTC_2ee0f.dir/build.make CMakeFiles/cmTC_2ee0f.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ee0f.dir/src.c.o
+/usr/bin/cc   -D_callconv_   -o CMakeFiles/cmTC_2ee0f.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2ee0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ee0f.dir/link.txt --verbose=1
+/usr/bin/cc  -D_callconv_    CMakeFiles/cmTC_2ee0f.dir/src.c.o  -o cmTC_2ee0f 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#pragma GCC diagnostic error "-Wignored-attributes"
+int   f(int i) {return i;} int main(void) {return f(0);}
+
+Performing C SOURCE FILE Test HAVE_DLOPEN succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dbbfd/fast && /usr/bin/make -f CMakeFiles/cmTC_dbbfd.dir/build.make CMakeFiles/cmTC_dbbfd.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbbfd.dir/src.c.o
+/usr/bin/cc  -I/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/dlfcn.h  -DHAVE_DLOPEN   -o CMakeFiles/cmTC_dbbfd.dir/src.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dbbfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbbfd.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_DLOPEN    CMakeFiles/cmTC_dbbfd.dir/src.c.o  -o cmTC_dbbfd  -ldl 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <dlfcn.h>
+int main(void) {
+  dlopen(0,0);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED_COPY succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8f8b/fast && /usr/bin/make -f CMakeFiles/cmTC_d8f8b.dir/build.make CMakeFiles/cmTC_d8f8b.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8f8b.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_NO_DEPRECATED_COPY   -Wno-deprecated-copy -std=c++14 -o CMakeFiles/cmTC_d8f8b.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d8f8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8f8b.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_NO_DEPRECATED_COPY      CMakeFiles/cmTC_d8f8b.dir/src.cxx.o  -o cmTC_d8f8b 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_STRINGOP_TRUNCATION succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8ae06/fast && /usr/bin/make -f CMakeFiles/cmTC_8ae06.dir/build.make CMakeFiles/cmTC_8ae06.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ae06.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_STRINGOP_TRUNCATION   -Wno-stringop-truncation -std=c++14 -o CMakeFiles/cmTC_8ae06.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8ae06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ae06.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_STRINGOP_TRUNCATION      CMakeFiles/cmTC_8ae06.dir/src.cxx.o  -o cmTC_8ae06 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_MEMBER_FUNCTION succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4a945/fast && /usr/bin/make -f CMakeFiles/cmTC_4a945.dir/build.make CMakeFiles/cmTC_4a945.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a945.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_UNUSED_MEMBER_FUNCTION   -Wno-unused-member-function -std=c++14 -o CMakeFiles/cmTC_4a945.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4a945
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a945.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_UNUSED_MEMBER_FUNCTION      CMakeFiles/cmTC_4a945.dir/src.cxx.o  -o cmTC_4a945 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_REDUNDANT_MOVE succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6e16a/fast && /usr/bin/make -f CMakeFiles/cmTC_6e16a.dir/build.make CMakeFiles/cmTC_6e16a.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6e16a.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_REDUNDANT_MOVE   -Wno-redundant-move -std=c++14 -o CMakeFiles/cmTC_6e16a.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6e16a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e16a.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_REDUNDANT_MOVE      CMakeFiles/cmTC_6e16a.dir/src.cxx.o  -o cmTC_6e16a 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0b7ea/fast && /usr/bin/make -f CMakeFiles/cmTC_0b7ea.dir/build.make CMakeFiles/cmTC_0b7ea.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b7ea.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_UNUSED   -Wno-unused -std=c++14 -o CMakeFiles/cmTC_0b7ea.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0b7ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b7ea.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_UNUSED      CMakeFiles/cmTC_0b7ea.dir/src.cxx.o  -o cmTC_0b7ea 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_UNUSED_PARAMETER succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64706/fast && /usr/bin/make -f CMakeFiles/cmTC_64706.dir/build.make CMakeFiles/cmTC_64706.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64706.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_UNUSED_PARAMETER   -Wno-unused-parameter -std=c++14 -o CMakeFiles/cmTC_64706.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64706
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64706.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_UNUSED_PARAMETER      CMakeFiles/cmTC_64706.dir/src.cxx.o  -o cmTC_64706 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_MISSING_DECLARATIONS succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eff93/fast && /usr/bin/make -f CMakeFiles/cmTC_eff93.dir/build.make CMakeFiles/cmTC_eff93.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eff93.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_MISSING_DECLARATIONS   -Wno-missing-declarations -std=c++14 -o CMakeFiles/cmTC_eff93.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eff93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff93.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_MISSING_DECLARATIONS      CMakeFiles/cmTC_eff93.dir/src.cxx.o  -o cmTC_eff93 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_NO_CLASS_MEMACCESS succeeded with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3910e/fast && /usr/bin/make -f CMakeFiles/cmTC_3910e.dir/build.make CMakeFiles/cmTC_3910e.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3910e.dir/src.cxx.o
+/usr/bin/c++    -DHAS_NO_CLASS_MEMACCESS   -Wno-class-memaccess -std=c++14 -o CMakeFiles/cmTC_3910e.dir/src.cxx.o -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3910e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3910e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_NO_CLASS_MEMACCESS      CMakeFiles/cmTC_3910e.dir/src.cxx.o  -o cmTC_3910e 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the system is big endian passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f2b6/fast && /usr/bin/make -f CMakeFiles/cmTC_0f2b6.dir/build.make CMakeFiles/cmTC_0f2b6.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f2b6.dir/TestEndianess.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0f2b6.dir/TestEndianess.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_0f2b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f2b6.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_0f2b6.dir/TestEndianess.c.o  -o cmTC_0f2b6 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ab3f/fast && /usr/bin/make -f CMakeFiles/cmTC_7ab3f.dir/build.make CMakeFiles/cmTC_7ab3f.dir/build
+make[1]: Entering directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ab3f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7ab3f.dir/CheckIncludeFile.c.o   -c /root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ab3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ab3f.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_7ab3f.dir/CheckIncludeFile.c.o  -o cmTC_7ab3f 
+make[1]: Leaving directory '/root/gromacs-mo833a/build_release/CMakeFiles/CMakeTmp'
+
+
+

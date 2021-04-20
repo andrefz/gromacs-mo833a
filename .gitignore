@@ -26,3 +26,5 @@ _build
 CMakeLists.txt.user
 /VersionInfo*.cmake
 Testing
+./build_release
+./build_debug
