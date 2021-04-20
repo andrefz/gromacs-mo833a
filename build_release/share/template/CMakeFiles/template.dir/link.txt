@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG     CMakeFiles/template.dir/template.cpp.o  -o ../../bin/template  -Wl,-rpath,"\$ORIGIN/../lib" ../../lib/libgromacs.so.5.0.0 -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 

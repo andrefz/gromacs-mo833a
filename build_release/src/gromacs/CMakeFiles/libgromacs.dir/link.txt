@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O3 -DNDEBUG    -shared -Wl,-soname,libgromacs.so.5 -o ../../lib/libgromacs.so.5.0.0 @CMakeFiles/libgromacs.dir/objects1.rsp  -Wl,-rpath,"\$ORIGIN/../lib" -ldl -lrt ../external/build-fftw/fftwBuild-prefix/lib/libfftw3f.a -lpthread -lm /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so 
